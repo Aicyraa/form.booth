@@ -1,0 +1,96 @@
+body{
+   color: white; 
+   background-image: url(pixel-night-room-thumb.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   font-family:BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+hr{
+   border: 1px solid #ffffffb1;
+   border-radius: 10px;
+}
+h1{
+   letter-spacing: 2px;
+   font-size:100px;
+   display: none;
+}
+.container_center{
+   display: flex;
+   justify-content: center;
+   margin: 40px 0 40px 0;
+   max-width: 450px;
+   max-height: 6in;
+   min-width: 100px;
+   min-height: 4in;
+}
+.container{
+   background-color: #4f728a63;  
+   max-width: 450px;
+   max-height: 6in;
+   min-width: 100px;
+   min-height: 4in;
+   padding: 30px;
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px 1px hsl(217, 26%, 43%);
+   backdrop-filter: blur(10px);  
+}
+.lagro{
+   position: absolute;
+   bottom: 60px;
+   height: 60px;
+   height: 60px;
+}
+label{
+   letter-spacing: 4px;
+   font-size: 19px;
+}
+input[type = text]{
+   padding:10px 5px;
+   margin: 15px 0;
+   width: 98%;
+   border: none;
+   border-radius: 12px;
+   min-width: 50%;
+}
+input[type = text]:focus{
+   outline: none;
+}
+input[type = text]:hover{
+   cursor: pointer;
+}
+input[type = submit]{
+   background-color:#6dbed4a4;
+   border-radius: 8px;
+   border: none;
+   padding: 5px 8px;
+   margin: 5px 0 0 10px;
+   color: white;
+   letter-spacing: 2px;
+   font-size: 15px;
+}
+/*  */
+button{
+   text-align:center;
+   letter-spacing: 2px;
+   font-size: 20px;
+   padding: 4px 8px;
+   border: none;
+   border-radius: 10px;
+   background-color: #6dbed4a4;
+}
+a{
+   text-decoration: none;
+   
+}
+.container2{ 
+    display: inline-block; 
+    margin: 100px 0 0 0;
+    background-color: #4f728a63;  
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px hsl(217, 26%, 43%);
+    backdrop-filter: blur(7px); 
+   
+}
